@@ -1,0 +1,75 @@
+<!-- <hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p> --><h4>
+<div class="topnav">
+  <a class="active" href="#home">Home</a><br />
+  <a href="#Appointment">Appointment</a><br />
+  <a href="#Appointment Details">Appointment Details</a><br />
+  <a href="#about">About</a>
+</div></h4>
+<h3>Appointment Details</h3>
+<form>
+  <div>
+    <!-- <div class="container">
+  <div class="contact-from row">
+    <div class="form-field col-lg-6"> -->
+    <label for="patient name">patient name<br /><input type="text" placeholder="" /><br /></label>
+    <label>patient email</label><br /><input
+      type="emails"
+      id="emails"
+      name="emails"
+      multiple
+    /><br />
+    <label>phone number<br /><input type="number" /><br /></label>
+    <label>DOB<br /><input type="date" id="date" /><br /></label>
+    <!-- <label for="gender">gender</label><br>
+        <input type="radio" value="male">male<br>
+        <input type="radio" value="male">female<br>
+      -->
+    <!-- <label>gender</label><br />
+    <input type="radio" id="male" value="male" name="male" />
+      <label for="male">male</label><br />
+      <input type="radio" id="female" value="female" />  
+    <label for="female">female</label><br />
+      <input type="radio" id="others" value="others" />  
+    <label for="others">others</label><br /> -->
+    <legend>gender</legend>
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="male" value="male" checked>
+    <label for="male">female</label>
+    <input type="radio" name="gender" id="male" value="male" checked>
+    <label for="male">others</label>
+    <input type="radio" name="gender" id="male" value="male" checked>
+<br>
+    <label>appointment type<br /><input type="text" /><br /></label>
+    <label>appointment date<br /><input type="date" id="date" /><br /></label>
+    <label>appointment time<br /><input type="time" /></label>
+  </div>
+  <br />
+  <div>
+    <button style="background-color:blue">cancel appointment</button>
+    <button style="background-color:yellow">change appointment</button>
+  </div>
+  <hr />
+  <div>
+    <h3>Other Details</h3>
+    <label>patient contition<br /><input type="text" /> <br /></label>
+    <label>patient mode<br /><input type="text" /><br /></label>
+  </div>
+  <hr />
+  <div>
+    <h3>Clinic Details</h3>
+    <label> clinic name<br /><input type="text" /><br /></label>
+    <label>phone number<br /><input type="number" /><br /></label>
+    <label> address<br /><input type="textarea" /><br /></label>
+  </div>
+  <hr />
+  <div>
+    <h3>Commennts</h3>
+    <!-- <label for="comments"><input type="textarea"></label> -->
+    <textarea rows="4" cols="50" name="comment" form="usrform">
+enter text here...</textarea
+    >
+  </div>
+</form>
